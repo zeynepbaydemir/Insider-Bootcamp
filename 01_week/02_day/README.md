@@ -1,4 +1,9 @@
 ## Program Çıktıları:
+![Ekran görüntüsü 2025-07-03 132638](https://github.com/user-attachments/assets/b4196f34-b993-4e8c-a131-dede219c6326)
+
+![Ekran görüntüsü 2025-07-03 132558](https://github.com/user-attachments/assets/3f65e1fb-37b0-4422-a579-80ca9c9f52f6)
+
+
 
 # CSS Ödevi - Login ve Kayıt Sayfalarını Tasarlama
 
