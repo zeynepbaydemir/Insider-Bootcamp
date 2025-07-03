@@ -76,3 +76,8 @@ Bu projede iki adet HTML dosyası oluşturacaksınız: `login.html` ve `signup.h
 - Oradan da `"Giriş Yap"` linkine tıklayarak geri dönebilmelisiniz.
 
 ## Program çıktıları:
+
+![image](https://github.com/user-attachments/assets/9af8c6cb-364a-4892-b623-6460be4fbb1e)
+
+![image](https://github.com/user-attachments/assets/db001262-7b31-421c-97e1-4ff274a36307)
+
