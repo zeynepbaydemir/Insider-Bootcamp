@@ -1,5 +1,8 @@
 ## Program Çıktıları:
 
+![Ekran görüntüsü 2025-07-04 125440](https://github.com/user-attachments/assets/84e4bbdb-fc41-4fa4-a3d5-8f3895edd962)
+
+
 ## Karşılanan İsterler
 
 ### HTML Yapısı
