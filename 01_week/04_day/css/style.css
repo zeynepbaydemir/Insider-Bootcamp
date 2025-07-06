@@ -1,0 +1,156 @@
+body {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #000000 0%, #2a002e 30%, #5d001e 100%);
+    color: white;
+  }
+
+  p, li {
+    line-height: 1.6; 
+    font-size: 1.1rem;
+    letter-spacing: 0.02em; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-fit: contain;
+  }
+  
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: #222;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button#fav-btn {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    font-size: 1.0rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .fav-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transform: scale(1);
+  }
+  
+  .fav-btn:hover {
+    background-color: #ff2e2e;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  }
+  
+  .fav-btn.clicked {
+    background-color: #00cc99;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 255, 200, 0.4);
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #e50914;
+  }
+  
+  .card iframe {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  h1, h2 {
+    color: #e50914;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #111;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      padding: 1rem;
+    }
+    .nav-links.active {
+      display: flex;
+    }
+    .hamburger {
+      display: block;
+    }
+  }
+  

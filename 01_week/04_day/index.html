@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stranger Things</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <h1>Stranger Things</h1>
+    <nav id="nav-links" class="nav-links">
+      <a href="#konu">Konu</a>
+      <a href="#karakterler">Karakterler</a>
+      <a href="#sahne">Favori Sahne</a>
+      <a href="#bolumler">Bölümler</a>
+      <a href="#hakkinda">Hakkında</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <section class="hero">
+    <h2 class="section-title">Stranger Things</h2>
+    <img src="images/poster.jpg" alt="Stranger Things Poster" class="poster"/>
+  </section>
+
+  <section id="konu" class="section">
+    <h2 class="section-title">Dizi Konusu</h2>
+    <p>"Stranger Things" dizisi, 1980'lerin başında kurgusal Hawkins, Indiana kasabasında geçiyor. Dizi, Hawkins Ulusal Laboratuvarı'nda gizlice yürütülen paranormal ve doğaüstü deneyler sonucunda ortaya çıkan gizemli olayları ve paralel bir boyut olan "Upside Down" (Ters Dönmüş Dünya) ile gerçek dünya arasındaki mücadeleleri konu alıyor.
+
+        Dizide, kaybolan bir çocuğun (Will Byers) aranmasıyla başlayan olaylar zinciri, özel güçlere sahip genç bir kız olan Eleven'ın (El) ortaya çıkmasıyla daha da karmaşık bir hal alıyor. Will'in arkadaşları, ailesi ve kasabanın polis şefi, bu gizemleri çözmek ve kasabayı tehdit eden doğaüstü varlıklarla savaşmak için bir araya geliyor. </p>
+  </section>
+
+  <section id="karakterler" class="section">
+    <h2 class="section-title">Karakterler</h2>
+    <div class="grid-4">
+      <div class="card">
+        <img src="images/eleven.png" alt="Eleven"/>
+        <h3>Eleven</h3>
+        <p>Telekinetik güçlere sahip gizemli bir kız.</p>
+      </div>
+      <div class="card">
+        <img src="images/mike.png" alt="Mike"/>
+        <h3>Mike Wheeler</h3>
+        <p>Eleven’ın en yakın arkadaşı ve lider ruhlu bir çocuk.</p>
+      </div>
+      <div class="card">
+        <img src="images/dustin.png" alt="Dustin"/>
+        <h3>Dustin Henderson</h3>
+        <p>Bilime meraklı, neşeli bir ekip üyesi.</p>
+      </div>
+      <div class="card">
+        <img src="images/will.png" alt="Will"/>
+        <h3>Will Byers</h3>
+        <p>Hassas, sanata yatkın bir ekip üyesi.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="sahne" class="section">
+    <h2 class="section-title">Favori Sahne</h2>
+    <p>Bu sahne, Max'in Vecna'nın zihin kontrolünden kurtulmaya çalıştığı  anları içeriyor.
+
+        Max, Vecna'nın etkisi altındayken arkadaşları onu kurtarmak için en sevdiği şarkıyı, Kate Bush'un "Running Up That Hill" şarkısını çalıyor. Şarkı çalmaya başladığında, Max'in zihni Vecna'nın kontrolünden yavaş yavaş kurtulmaya başlıyor.
+        
+        Vecna, Max'i kendi tarafına çekmeye çalışıyor ve arkadaşlarının ona yardım edemeyeceğini söylüyor. Ancak Max, şarkının gücüyle Vecna'nın etkisinden sıyrılmaya devam ediyor. Şarkının etkisiyle Max, Vecna'nın zihin dünyasından gerçekliğe geri dönüyor.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bV0RAcuG2Ao?si=-ToyiXtADeQ44gfP" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="bolumler" class="section">
+    <h2 class="section-title">Bölümler</h2>
+    <div class="grid-3">
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/CKtq-bZgS8I?si=whzn30TMr46H8HRR" frameborder="0" allowfullscreen></iframe>
+        <h3>1. Bölüm: Will Byers'ın Ortadan Kayboluşu</h3>
+        <p>Will kaybolur, olaylar başlar</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=obxfNGulLdXirhXB" frameborder="0" allowfullscreen></iframe>
+        <h3>2. Bölüm: Maple Sokağı'ndaki Ucube</h3>
+        <p>Joyce garip sinyaller alır</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=obxfNGulLdXirhXB" frameborder="0" allowfullscreen></iframe>
+        <h3>3. Bölüm: Mutlu Noeller</h3>
+        <p>Barb kaybolur, Will ışıkla konuşur</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=obxfNGulLdXirhXB" frameborder="0" allowfullscreen></iframe>
+        <h3>4. Bölüm: Ceset</h3>
+        <p>Sahte ceset, gerçek şüphelere sebep olur</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=obxfNGulLdXirhXB" frameborder="0" allowfullscreen></iframe>
+        <h3>5. Bölüm: Pire ve Cambaz</h3>
+        <p>Hopper lab’a sızar, kapı keşfedilir</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=obxfNGulLdXirhXB" frameborder="0" allowfullscreen></iframe>
+        <h3>6. Bölüm: Canavar</h3>
+        <p>Nancy canavarla burun buruna gelir</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=obxfNGulLdXirhXB" frameborder="0" allowfullscreen></iframe>
+        <h3>7. Bölüm: Küvet</h3>
+        <p>El, Will’in yerini bulur</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+      <div class="card">
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=obxfNGulLdXirhXB" frameborder="0" allowfullscreen></iframe>
+        <h3>8. Bölüm: Alt Üst</h3>
+        <p>Büyük kurtarma ve veda vakti</p>
+        <button class="fav-btn">★ Favorilere Ekle</button>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="hakkinda" class="section">
+    <h2 class="section-title">Hakkında</h2>
+    <p>Merhaba ben Zeynep Baydemir. Bu web sayfasını Insider bootcamp projesi olarak hazırladım. Aşağıdaki Github ve LinkedIn linkelerini kullanarak bana ve çalışmalarıma ulaşabilirsiniz.</p>
+    <p>
+      <a href="https://github.com/zeynepbaydemir" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/zeynepbaydemir/" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+</body>
+</html>
