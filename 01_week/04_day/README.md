@@ -1,4 +1,14 @@
 ## Program Çıktıları:
+![Ekran görüntüsü 2025-07-06 143455](https://github.com/user-attachments/assets/736ad8c2-03bc-4619-8eae-86124c7144a4)
+
+![Ekran görüntüsü 2025-07-06 143535](https://github.com/user-attachments/assets/8afa19cb-7bca-44de-8a10-a10127186a20)
+
+![Ekran görüntüsü 2025-07-06 143603](https://github.com/user-attachments/assets/0b022756-d5d7-4525-9df3-f9d76515c466)
+
+![Ekran görüntüsü 2025-07-06 143646](https://github.com/user-attachments/assets/826c59b4-e5d4-426c-86a4-5bed3071eb06)
+
+![Ekran görüntüsü 2025-07-06 143729](https://github.com/user-attachments/assets/feb0a973-80ab-4231-994b-b6dd0871a870)
+
 
 ## Karşılanan İsterler
 
