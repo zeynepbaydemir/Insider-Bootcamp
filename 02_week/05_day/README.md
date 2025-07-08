@@ -1,5 +1,8 @@
 ## Program Çıktıları:
 
+![Ekran görüntüsü 2025-07-08 135652](https://github.com/user-attachments/assets/e8484d89-a6ba-4d86-ab0a-82561cfc600c)
+
+
 ## Karşılanan İsterler
 
 - Kullanıcı bilgileri `prompt()` ile alınıp, `user` adında bir nesnede saklanıyor.
