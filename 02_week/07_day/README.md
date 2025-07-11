@@ -1,5 +1,8 @@
 ## Program Çıktıları:
 
+<img width="962" height="547" alt="gerisayim" src="https://github.com/user-attachments/assets/4ea3ceb9-0ccd-4f45-9ba3-f59af60a84c9" />
+
+
 ## Karşılanan İsterler
 
 - Kullanıcıdan süre girişi alındı (input elemanı ile).
