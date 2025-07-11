@@ -1,5 +1,8 @@
 ## Program Çıktıları:
 
+![image](https://github.com/user-attachments/assets/fa91f292-16c0-4787-ad5f-41c064f25b8f)
+
+
 ## Karşılanan İsterler
 
 - Pozitif sayılar için Collatz dizisi kuralları uygulandı (n çiftse n/2, tekse 3n+1).
