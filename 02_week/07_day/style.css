@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fef9f4;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 450px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  input {
+    padding: 12px;
+    width: 120px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: box-shadow 0.2s;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  button {
+    padding: 10px 22px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  #baslatBtn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #baslatBtn:hover {
+    background-color: #43a047;
+  }
+  
+  #sifirlaBtn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #sifirlaBtn:hover {
+    background-color: #e53935;
+  }
+  
+  #gerisayim {
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
