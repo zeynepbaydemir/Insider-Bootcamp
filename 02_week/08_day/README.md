@@ -1,4 +1,5 @@
 ## Program Çıktıları:
+<img width="656" height="547" alt="Ekran görüntüsü 2025-07-13 204740" src="https://github.com/user-attachments/assets/390b24b0-a82a-4d8d-bebb-6aff1dbe1290" />
 
 ## Karşılanan İsterler
 
@@ -23,9 +24,9 @@
 
 # Ödev - İsterler
 
-## Gerçek Zamanlı Görev Yönetim Uygulaması
+### Gerçek Zamanlı Görev Yönetim Uygulaması
 
-## 1. Görev Listesi Arayüzü (HTML, CSS, JS ile Dinamik İçerik)
+### 1. Görev Listesi Arayüzü (HTML, CSS, JS ile Dinamik İçerik)
 
 - Sayfa yüklendiğinde, boş bir görev listesi gösterilecek.
 - Kullanıcı bir görev ekleyebilecek.
@@ -37,7 +38,7 @@
 
 ---
 
-## 2. Görev Ekleme & DOM Manipülasyonu
+### 2. Görev Ekleme & DOM Manipülasyonu
 
 - Kullanıcı formu doldurup "Ekle" butonuna bastığında, yeni görev listeye eklenecek.
 - Görev dinamik olarak HTML'e eklenmeli (Sayfa yenilendiğinde sıfırlanmalı).
@@ -45,7 +46,7 @@
 
 ---
 
-## 3. Olay Yönetimi & Event Delegation
+### 3. Olay Yönetimi & Event Delegation
 
 - Kullanıcı, her görev satırında bulunan butonları kullanarak:
   - **Tamamlandı olarak işaretleyebilir.** (Yeşil bir arka plan eklenebilir)
@@ -55,7 +56,7 @@
 
 ---
 
-## 4. Form Doğrulama ve Hata Yönetimi
+### 4. Form Doğrulama ve Hata Yönetimi
 
 - Kullanıcı, boş bir görev ekleyemez.
 - Öncelik seçilmezse bir hata mesajı gösterilmeli.
@@ -63,7 +64,7 @@
 
 ---
 
-## 5. Filtreleme & Sıralama (Opsiyonel)
+### 5. Filtreleme & Sıralama (Opsiyonel)
 
 - Kullanıcı, "Sadece tamamlananları göster" butonuna bastığında tamamlanan görevleri filtreleyebilmeli.
 - Önceliğe göre sıralama seçeneği eklenebilir (**Düşük → Orta → Yüksek**).
