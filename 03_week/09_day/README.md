@@ -1,5 +1,8 @@
 ## Program Çıktıları:
 
+<img width="1458" height="622" alt="image" src="https://github.com/user-attachments/assets/ddb221c4-ae3c-4289-9a54-01ca78c5cdd4" />
+
+
 ## Karşılanan İsterler
 
 ### 1. Statik JSON Verisi
