@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Öğrenci Listesi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h2>Öğrenci Listesi</h2>
+
+    <input type="text" id="nameInput" placeholder="İsim" />
+    <input type="text" id="classInput" placeholder="Sınıf" />
+    <input type="number" id="ageInput" placeholder="Yaş" />
+    <input type="email" id="emailInput" placeholder="Email" />
+    <input type="number" id="gradeInput" placeholder="Not" />
+    <select id="statusInput">
+      <option value="Aktif">Aktif</option>
+      <option value="Mezun">Mezun</option>
+    </select>
+    <button id="addBtn">Ekle</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>İsim</th>
+          <th>Sınıf</th>
+          <th>Yaş</th>
+          <th>Email</th>
+          <th>Not</th>
+          <th>Durum</th>
+          <th>İşlem</th>
+        </tr>
+      </thead>
+      <tbody id="studentTableBody"></tbody>
+    </table>
+  </body>
+</html>
