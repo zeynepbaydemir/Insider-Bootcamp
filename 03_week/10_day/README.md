@@ -1,5 +1,8 @@
 ## Program Çıktıları:
 
+<img width="1792" height="795" alt="image" src="https://github.com/user-attachments/assets/052db4eb-f02b-4d6e-95b5-9874b430c1bf" />
+
+
 ## Karşılanan İsterler
 
 - HTML sayfası oluşturuldu.
