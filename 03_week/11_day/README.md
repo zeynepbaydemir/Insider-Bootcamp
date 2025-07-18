@@ -1,11 +1,11 @@
 ## Program Çıktıları:
-
+kullanıcılar bölümü:
 <img width="1463" height="907" alt="image" src="https://github.com/user-attachments/assets/388dfa3c-ab8a-4d47-9186-a2d6be7f279b" />
-
+detaylı kullanıcı bilgileri için modal:
 <img width="1450" height="902" alt="image" src="https://github.com/user-attachments/assets/1d40f85d-66fa-4cf2-bb8d-16ad35cea963" />
+slider:
+<img width="1443" height="372" alt="image" src="https://github.com/user-attachments/assets/1ba1248a-e24d-4267-afb4-c2aa18e17b91" />
 
-
-<img width="1466" height="912" alt="image" src="https://github.com/user-attachments/assets/659e3c7e-cf4d-42a7-bf62-8d9c2645abfb" />
 
 
 ## Karşılanan İsterler
