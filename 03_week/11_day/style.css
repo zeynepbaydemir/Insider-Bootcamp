@@ -1,0 +1,178 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  margin: 20px;
+  color: #333;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #003366;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 2px;
+  margin: 0 auto;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.card {
+  width: 280px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0, 123, 255, 0.35);
+  border: 2px solid #007bff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info {
+  padding: 12px 15px;
+}
+
+.info h4 {
+  margin: 6px 0;
+  font-size: 1.2em;
+  color: #007bff;
+  font-weight: 700;
+}
+
+.info p {
+  margin: 4px 0;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.slider-container {
+  max-width: 1300px;
+  margin: 60px auto 40px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  position: relative;
+  overflow: visible;
+  text-align: center;
+}
+
+.user-slider .slick-slide {
+  padding: 0 20px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.slider-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: none;
+  margin: 0 6px;
+  height: 200px;
+  width: 80px;
+}
+
+.slider-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.25);
+  border-color: transparent;
+}
+
+.slider-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+  display: block;
+  margin: 0 auto 12px auto;
+}
+
+.slider-card h5 {
+  margin: 8px 0 4px;
+  font-size: 17px;
+  color: #004080;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.slider-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 48px;
+  color: white;
+  opacity: 1;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev:hover::before,
+.slick-next:hover::before {
+  color: #ddd;
+}
+
+.modal-image {
+  width: 190px;
+  height: 190px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
