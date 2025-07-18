@@ -1,5 +1,13 @@
 ## Program Çıktıları:
 
+<img width="1463" height="907" alt="image" src="https://github.com/user-attachments/assets/388dfa3c-ab8a-4d47-9186-a2d6be7f279b" />
+
+<img width="1450" height="902" alt="image" src="https://github.com/user-attachments/assets/1d40f85d-66fa-4cf2-bb8d-16ad35cea963" />
+
+
+<img width="1466" height="912" alt="image" src="https://github.com/user-attachments/assets/659e3c7e-cf4d-42a7-bf62-8d9c2645abfb" />
+
+
 ## Karşılanan İsterler
 
 - Kullanıcı verileri, sayfa yüklendiğinde Random User API'den AJAX ile çekiliyor.
