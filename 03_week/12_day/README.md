@@ -1,5 +1,9 @@
 ## Program Çıktıları:
 
+<img width="1620" height="768" alt="Ekran görüntüsü 2025-07-21 164923" src="https://github.com/user-attachments/assets/fb3df4fa-eb88-42f4-8b6b-2092837dd096" />
+
+<img width="1632" height="813" alt="Ekran görüntüsü 2025-07-21 164951" src="https://github.com/user-attachments/assets/141be074-f547-4718-9f37-22bfd1dd293d" />
+
 ## Karşılanan İsterler
 
 - Ürünler AJAX ile `https://fakestoreapi.com/products` API’sinden çekildi.
