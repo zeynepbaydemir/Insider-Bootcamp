@@ -1,5 +1,8 @@
 ## Program Çıktıları:
 
+<img width="1228" height="525" alt="image" src="https://github.com/user-attachments/assets/8fa95ca2-2b11-4f30-8827-14a7e7b659ab" />
+
+
 ## Karşılanan İsterler
 
 - HTML dosyasına `ins-api-users` sınıfına sahip bir `<div>` eklendi.
