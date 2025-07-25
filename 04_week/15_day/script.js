@@ -107,7 +107,7 @@ function renderUsers(users) {
   const grid = container.querySelector(".user-grid");
 
   if (!users.length) {
-    grid.innerHTML = "<p>Hiç kullanıcı kalmadı 🥲</p>";
+    grid.innerHTML = "<p>Hiç kullanıcı kalmadı</p>";
     return;
   }
 
