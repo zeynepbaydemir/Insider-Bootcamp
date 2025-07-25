@@ -1,4 +1,10 @@
 ## Program Çıktıları:
+1.
+<img width="1242" height="780" alt="image" src="https://github.com/user-attachments/assets/ae2155f1-6c7b-4a80-ae5a-5bd9a18aa580" />
+2.
+<img width="1088" height="282" alt="image" src="https://github.com/user-attachments/assets/62e45e82-e63c-46d6-9772-ef9262f05e57" />
+3.
+<img width="1086" height="185" alt="image" src="https://github.com/user-attachments/assets/9302a952-a345-41ef-8d6c-85976e5683a6" />
 
 ## Karşılanan İsterler
 
